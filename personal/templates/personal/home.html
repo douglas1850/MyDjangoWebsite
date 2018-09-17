@@ -1,0 +1,8 @@
+<!-- when you extend something, you're loading this page. It extends the header page -->
+{% extends "personal/header.html" %}
+
+{% block content %}
+<p>Hey, welcome to my website! I like to program things.</p>
+
+{% include 'personal/includes/htmlsnippet.html' %} <!--make sure to use single quotes-->
+{% endblock %}
